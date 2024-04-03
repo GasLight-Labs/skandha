@@ -17,7 +17,6 @@ README.md
 .github
 .codeclimate.yml
 .codecov.yml
-config.json
 
 # Tooling
 docker

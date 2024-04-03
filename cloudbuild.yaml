@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  script: |
+    docker build -t us-west2-docker.pkg.dev/gaslight-labs/skandha/quickstart-image:tag1 .
+  automapSubstitutions: true
+images:
+- 'us-west2-docker.pkg.dev/gaslight-labs/skandha/quickstart-image:tag1'
